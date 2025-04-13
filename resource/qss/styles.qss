@@ -1,0 +1,72 @@
+/* styles.qss */
+
+
+
+NavBar QListWidget {
+    background: qlineargradient(
+       x1: 0, y1: 0,    /* 渐变起点（左上角） */
+       x2: 0, y2: 1,    /* 渐变终点（左下角，垂直渐变） */
+       stop: 0 #e6f2ff,  /* 0% 位置：淡蓝色 */
+       stop: 1 #ffffff   /* 100% 位置：白色 */
+   );
+   border: 0;
+   padding: 10px;
+   color: black;
+}
+
+NavBar QListWidget::item {
+    min-height: 50px;        /* 设置每个项的最小高度 */
+    min-width: 150px;        /* 设置每个项的最小宽度 */
+    qproperty-iconSize: 32px;  /* 正确设置图标大小 */
+    font-size: 16px;         /* 更合理的字体大小 */
+    padding-left: 10px;      /* 设置内边距 */
+}
+
+
+/*
+#ToolBar {
+    padding:0;
+    margin :0;
+    background-color: blue;
+}
+*/
+
+
+#ToolBar QPushButton {
+    border: 0;
+     min-height: 30px;   /* 最小高度 */
+}
+
+#ToolBar QLineEdit {
+    border: 0;
+    background-color: #e8e8e8;
+    min-height: 30px;   /* 最小高度 */
+}
+
+
+#ToolBar QPushButton:hover {
+    background-color: #e3e3e3;
+}
+
+
+
+
+QStackedWidget {
+    background-color: red;
+}
+
+
+#PlayerControl {
+    background-color: white;
+}
+
+#PlayerControl QPushButton {
+   border: 0;
+   min-height: 50px;   /* 最小高度 */
+
+}
+
+
+
+
+

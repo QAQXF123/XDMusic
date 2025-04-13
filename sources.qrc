@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/image"/>
+    <qresource prefix="/qss"/>
+    <qresource prefix="/">
+        <file>const.h</file>
+        <file>resource/images/logo.png</file>
+    </qresource>
+</RCC>

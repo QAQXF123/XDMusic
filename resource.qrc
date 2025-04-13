@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/images/music.svg</file>
+        <file>resource/images/book.svg</file>
+        <file>resource/images/favorite.svg</file>
+        <file>resource/images/time.svg</file>
+        <file>resource/images/download.svg</file>
+        <file>resource/images/camera.svg</file>
+        <file>resource/images/logo.svg</file>
+        <file>resource/qss/styles.qss</file>
+        <file>resource/images/edit.svg</file>
+        <file>resource/images/close.svg</file>
+        <file>resource/images/refresh.svg</file>
+        <file>resource/images/return.svg</file>
+        <file>resource/images/maximize.svg</file>
+        <file>resource/images/minimize.svg</file>
+        <file>resource/images/normalization.svg</file>
+        <file>resource/images/last.svg</file>
+        <file>resource/images/next.svg</file>
+        <file>resource/images/play.svg</file>
+        <file>resource/images/stop.svg</file>
+        <file>resource/images/song..jpg</file>
+    </qresource>
+</RCC>
