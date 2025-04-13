@@ -36,6 +36,7 @@ private:
 
     QMainWindow *m_mainWindows;
 
+    bool m_normalSize{true};
 
 
 

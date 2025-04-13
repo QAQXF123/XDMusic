@@ -110,13 +110,13 @@ void MainWindow::InitSignal()
     // 连接导航栏的信号
     connect(m_navBar, &NavBar::CurrentRowChanged,
             m_mainContent, [this](int index){
-            m_pageHistory.push_back(index);
+         //  m_pageHistory.push_back(index);
             m_mainContent->setCurrentIndex(index);
     });
 
     connect(m_toolBar, &ToolBar::LastPage, this, [this](){
-        m_pageHistory.pop_back();
-        m_mainContent->setCurrentIndex(m_pageHistory.back());
+//        m_pageHistory.pop_back();
+//        m_mainContent->setCurrentIndex(m_pageHistory.back());
     });
 
     connect(m_toolBar, &ToolBar::Minimize, this, &QMainWindow::showMinimized);
